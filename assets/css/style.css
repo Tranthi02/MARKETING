@@ -1,0 +1,492 @@
+.main_title{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.title_1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 6px solid #ccc ;
+    border-color: #616161 ;
+    font-size: 24px;
+}
+.title_container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+html{
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+
+/* main{
+    max-width:1100px;
+} */
+
+.clear{
+    clear: both;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f1f1f1;
+}
+
+.nav{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav > li{
+    display: inline-block;
+}
+
+.nav li{
+    /* position: relative; */
+    flex: 1;
+}
+
+.nav li a{
+    text-decoration: none;
+    /* line-height: 46px; */
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+    text-align: center;
+    color: #000;
+    font-family: "Lato", sans-serif;
+}
+
+.nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+.content{
+    max-width:1100px;
+    margin-top:90px;
+    margin-bottom:80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.content .content-section {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.content .section-heading{
+    font-size: 36px;
+    margin: 0; 
+}
+
+.content .section-sub-heading{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 15px;
+}
+
+.content .about-text{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.background {
+    display: grid;
+    place-items: start;
+    width: 100%;
+    background: url(https://www.w3schools.com/w3images/coffee.jpg) no-repeat;
+    /* background-size: cover; */
+    /* padding: 20px; */
+    margin-top: 30px;
+    height: 520px;
+    background-size: cover;
+}
+.floating-box {
+    background-color: white;
+    /* padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+    margin-top: 20px; 
+    margin-left: 20px; 
+    padding: 10px 10px;
+    width: 134px;
+    height: 44px;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+}
+
+.container-content {
+    display: flex;
+    height: 175px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight:unset;
+    margin: 10px 0;
+}
+
+.box {
+    width: 25%;
+    padding: 5px 10px;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    padding: 64px 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.title h2 {
+    font-size: 24px;
+    padding: 16px 0;
+}
+
+.title hr {
+    border: 3px solid black;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.box-1 {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.box-2 {
+    background-color: #9e9e9e;
+    color: #000;
+}
+
+.box-3 {
+    background-color: #616161;
+    color: #fff;
+}
+
+.box-4 {
+    background-color: #000;
+    color: #fff;
+}
+
+.design { 
+    background-color: #f9f9f9; 
+}
+
+.branding { 
+    background-color: #e0e0e0; 
+}
+
+.consultation { 
+    background-color: #666; 
+    color: #fff; 
+}
+
+.promises { 
+    background-color: #333; 
+    color: #fff; 
+}
+.title_2{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.slogan {
+    font-size: 15px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 32%;
+    overflow: hidden;
+    height: 545px;
+}
+.pricing-plan:hover {
+    box-shadow: 0 6px 8px rgba(0,0,0,0.1);
+}
+
+.plan-header {
+    background-color: #000;
+    color: #fff;
+    padding: 32px 16px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.plan-header.pro {
+    background-color: #616161;
+}
+
+.plan-features {
+    text-align: center;
+}
+
+.plan-feature {
+    font-size: 15px;
+    padding: 16px 0;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+.plan-feature span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.plan-price {
+    font-size: 30px;
+    padding: 16px;
+    letter-spacing: 3px;
+}
+
+.plan-price span {
+    font-size: 15px;
+    color: #666;
+    letter-spacing:0cm;
+}
+.button-feature{
+    background-color: #F1F1F3;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plan-button {
+    text-decoration: none;
+    width: 100px;
+    background-color: #4cb04f;
+    color: #fff;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.member {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 33.33333%;
+    overflow: hidden;
+
+}
+
+.card-member{
+    padding: 10px 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card p {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.card .job {
+    color: grey;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.card .description {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background-color: #ccc;
+}
+
+.contact-form {
+    background: white;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ccc;
+    color:#000;
+}
+
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+}
+  
+.to-top {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-top a:hover{
+    background-color: #cccccc;
+    color: black;
+}
+
+.to-top p{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-top a{
+    width: 110px;
+    height: 40px;
+}
+
+.to-top a div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.to-top a i{
+    width: 20px;
+}
+
+  
+.to-top a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+  
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.social-media a {
+    color: #000;
+    text-decoration: none;
+    width: 30px;
+}
+  
+.social-media a:hover {
+    color: #666;
+}
+  
+.powered-by {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+  
+.powered-by a {
+    color: #000;
+    text-decoration: none;
+}
+  
+.powered-by a:hover {
+    color: #666;
+}
+
